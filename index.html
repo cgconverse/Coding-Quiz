@@ -10,18 +10,28 @@
 
 <body>
 
-    <div id="main-box">
-        <header class="welcome">Welcome!</header>
-        <button id="start">Start</button>
+    <div class="container">
+        <div id="question-container" class="hide"></div>
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+            </div>
+        
+            <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
     </div>
+
+
+
 
     <div class="time"></div>
     <div id="main"></div>
 
-<h1>Forrest Gump Quiz</h1>
-    <p>Where is Forrest from?</p>
-    <p>What is the name of Forrest's one true love?</p>
-    <p>What does Forrest's mama always say?</p>
+
     
 
     <script src="./codingscript.js"></script>
